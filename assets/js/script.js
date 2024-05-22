@@ -9,7 +9,7 @@ const questions = [
         ]
     },
     {
-        question: "Which is the smallest cpuntry in the world?",
+        question: "Which is the smallest country in the world?",
         answers: [
             {text: "Vatican City", correct: true},
             {text: "Nepal", correct: false},
@@ -98,7 +98,7 @@ function selectAnswer(e) {
 function showScore() {
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}`;
-    nextButton.button.innerHTML = "Play Again";
+    nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
 
