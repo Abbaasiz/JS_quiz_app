@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One";
+    box-sizing: border-box;
+}
+
+body {
+    background: #001e4d;
+}
+
+.app {
+    margin: 100px auto;
+    width: 90%;
+    max-width: 600px;
+    background: #ffff;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    padding: 10px 0;
+}
+
+.btn {
+    background: #ffff;
+    color: #222;
+    font-weight: 500;
+    display: block;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #222;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background: #222;
+    color: white;
+}
+
+#next-btn {
+    padding: 10px;
+    background: #001e4d;
+    color: #fff;
+    width: 150px;
+    margin-top: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
